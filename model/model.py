@@ -51,19 +51,6 @@ joblib.dump(tfidf_vectorizer, "tfidf_vectorizer.pkl")
 # Predict sentiment on the test set
 y_pred = lr_model.predict(X_test)
 
-ascii_art = """ _                    _ _ _                   _               _  __ _           
- | |                  | | (_)                 | |             (_)/ _(_)          
- | |__   ___  __ _  __| | |_ _ __   ___    ___| | __ _ ___ ___ _| |_ _  ___ _ __ 
- | '_ \ / _ \/ _` |/ _` | | | '_ \ / _ \  / __| |/ _` / __/ __| |  _| |/ _ \ '__|
- | | | |  __/ (_| | (_| | | | | | |  __/ | (__| | (_| \__ \__ \ | | | |  __/ |   
- |_| |_|\___|\__,_|\__,_|_|_|_| |_|\___|  \___|_|\__,_|___/___/_|_| |_|\___|_|   
-"""
-
-print(ascii_art)
-print("The data achieved 73% accuracy with linear regression")
-print("Input news headline for classification: [neutral, negative, positive]")
-
-
 # Calculate accuracy
 # accuracy = accuracy_score(y_test, y_pred)
 # print("Accuracy:", accuracy)
