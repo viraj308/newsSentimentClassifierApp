@@ -37,7 +37,7 @@ if __name__ == "__main__":
     print("----------------------------------------------------------------------------------------------")
     print(ascii_art)
     print("----------------------------------------------------------------------------------------------")
-    print("The data achieved 73% accuracy with linear regression")
+    print("The data achieved 73% accuracy with logistic regression")
     print(
         "Input news headline for classification: [neutral, negative, positive]")
     news_input = input("\nEnter the news headline: ")
